@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" name="viewport" content="with=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="uv.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>univercity website design</title>
+</head>
+<body>
+    <section class="subheader">
+        <nav>
+            <div class="logo">  <img src="down1.jpg" /> </div>
+            <div class=" navlink" id="navLinks">
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a> </li>
+                    <li><a href="">ABOUT</a> </li>
+                    <li><a href="">COURSE</a> </li>
+                    <li><a href="">BLOG</a> </li>
+                    <li><a href="">CONTACT</a> </li>
+                </ul>
+            </div>
+            <i class="fa fa-align-justify" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+
+    <!------------about us content-------------->
+
+    <section class="about-us">
+        <div class="row1">
+            <h1> we are the world largest university</h1>
+            <p>Bring real-world expertise back to the office. Regent’s ACBSP-accredited Master of Business Administration is designed for today’s professional who operates in a global and rapidly changing environment. You will prepare for a career in leadership as you develop the strategic skills essential for success in today’s challenging business environments. Through this ACBSP-accredited program, you’ll also learn how to effectively manage people and resources as a servant leader, Choose a specialized concentration that aligns with your interests and career goals– all presented from a Christian worldview.</p>
+            <a href="" class="btn1">Explore Now</a>
+        </div>
+
+        <div class="img">
+            <img src="a5.jpg" />
+        </div>
+
+    </section>
+
+
+
+    <!------footer--- ------------->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>
+            The Quality Handbook sets out in detail the procedures we use to safeguard academic standards and assure the quality of the learning opportunities
+            we offer our students.<br>
+
+            It provides the authoritative guide to our quality procedures.
+        </p>
+        <div class="icon">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p style="color:blue; background-color:gainsboro;"> Made with <i class="fa fa-heart-o"></i> by Khushboo Malviya</p>
+    </section>
+
+    <!--js for toggle menu-->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>
